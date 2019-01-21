@@ -5,8 +5,18 @@ body {
   font-size: 18px;
   line-height: 1.4;
   background-color: white;
-  display: flex;
-  justify-content: center;
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 1536px) {
+
+}
+
+@media only screen and (max-width: 2880px) {
+
 }
 
 /* Header */
@@ -88,13 +98,23 @@ nav ul li {
   width: 5rem;
   display: flex;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   flex-flow: row wrap;
 }
 
 .paper {
   width: 3.5rem;
-  height: auto;
+  height: 50%;
+}
+
+.ruler {
+  width: 4.5rem;
+  height: 50%;
+}
+
+.truck {
+  width: 4.5rem;
+  height: 50%;
 }
 
 .writingBox {
