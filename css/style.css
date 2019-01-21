@@ -1,0 +1,72 @@
+/* Universal Styles*/
+
+body {
+  font-family: Helvetica;
+  font-size: 18px;
+  line-height: 1.4;
+  background-color: white;
+}
+
+/* Header */
+
+header {
+  color: white;
+  background-color: cadetblue;
+  height: 3rem;
+  width: 960px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+header.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+header img {
+  padding-left: 2rem;
+  height: 1.5rem;
+  width: auto;
+}
+
+header p {
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+header nav {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  padding-right: 2rem;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jumbotron-box {
+  height: 5rem;
+  width: auto;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-top: 13rem;
+  margin-right: 5rem;
+}
