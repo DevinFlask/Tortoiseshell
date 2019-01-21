@@ -53,6 +53,8 @@ nav ul li {
 
 .jumbotron {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 30rem;
   display: flex;
@@ -69,4 +71,85 @@ nav ul li {
   line-height: 1.2;
   margin-top: 13rem;
   margin-right: 5rem;
+}
+
+/* Main Content */
+
+.imageBox {
+  height: 14rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.images {
+  padding: 3rem 6rem;
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-flow: row wrap;
+}
+
+.paper {
+  width: 3.5rem;
+  height: auto;
+}
+
+.writingBox {
+  width: auto;
+  height: auto;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.writing {
+  width: 35%;
+  height: auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5rem;
+}
+
+.title {
+  font-weight: bold;
+  background-color: cadetblue;
+  width: 10rem;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.description {
+padding-top: 1rem;
+}
+
+/* Footer */
+
+footer {
+  width: 960px;
+  height: auto;
+  background-color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  height: 1.5rem;
+  width: auto;
+  padding-left: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer p {
+  padding-left: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
